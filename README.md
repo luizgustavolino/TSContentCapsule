@@ -6,7 +6,7 @@ Content Capsule makes it easier to perform asynchronous tasks on iOS! You can:
 - Write callbacks to the same thread that created the capsule (avoiding calling the UI outside the main thread)
 - Configure thread pool size (better memory management in each case)
 
-###ROADMAP
+###Roadmap
 
 - Improve the way that users can get this tool (maybe using cocoapods?).
 - Write routines to discard capsules (like when a user tap back and leave a screen where there is queued capsules involved).

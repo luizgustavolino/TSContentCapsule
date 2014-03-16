@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EB5A2018D548AE008A9FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A1F18D548AE008A9FD9 /* Foundation.framework */; };
+		06EB5A2218D548AE008A9FD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A2118D548AE008A9FD9 /* CoreGraphics.framework */; };
+		06EB5A2418D548AE008A9FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A2318D548AE008A9FD9 /* UIKit.framework */; };
+		06EB5A2A18D548AE008A9FD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EB5A2818D548AE008A9FD9 /* InfoPlist.strings */; };
+		06EB5A2C18D548AE008A9FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A2B18D548AE008A9FD9 /* main.m */; };
+		06EB5A3018D548AE008A9FD9 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A2F18D548AE008A9FD9 /* TSAppDelegate.m */; };
+		06EB5A3218D548AE008A9FD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EB5A3118D548AE008A9FD9 /* Images.xcassets */; };
+		06EB5A3918D548AE008A9FD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A3818D548AE008A9FD9 /* XCTest.framework */; };
+		06EB5A3A18D548AE008A9FD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A1F18D548AE008A9FD9 /* Foundation.framework */; };
+		06EB5A3B18D548AE008A9FD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EB5A2318D548AE008A9FD9 /* UIKit.framework */; };
+		06EB5A4318D548AE008A9FD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EB5A4118D548AE008A9FD9 /* InfoPlist.strings */; };
+		06EB5A4518D548AE008A9FD9 /* TSContentCapsuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A4418D548AE008A9FD9 /* TSContentCapsuleTests.m */; };
+		06EB5A5418D54B98008A9FD9 /* TSContentCapsuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5318D54B98008A9FD9 /* TSContentCapsuleManager.m */; };
+		06EB5A5518D54B98008A9FD9 /* TSContentCapsuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5318D54B98008A9FD9 /* TSContentCapsuleManager.m */; };
+		06EB5A5818D54C43008A9FD9 /* TSContentCapsuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5718D54C43008A9FD9 /* TSContentCapsuleItem.m */; };
+		06EB5A5918D54C43008A9FD9 /* TSContentCapsuleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5718D54C43008A9FD9 /* TSContentCapsuleItem.m */; };
+		06EB5A5C18D55B3D008A9FD9 /* TSContentCapsuleThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5B18D55B3D008A9FD9 /* TSContentCapsuleThread.m */; };
+		06EB5A5D18D55B3D008A9FD9 /* TSContentCapsuleThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A5B18D55B3D008A9FD9 /* TSContentCapsuleThread.m */; };
+		06EB5A6B18D56EC8008A9FD9 /* TSDownloadImageCapsule.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A6A18D56EC8008A9FD9 /* TSDownloadImageCapsule.m */; };
+		06EB5A7318D57191008A9FD9 /* TSImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A7118D57191008A9FD9 /* TSImageGridViewController.m */; };
+		06EB5A7418D57191008A9FD9 /* TSImageGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06EB5A7218D57191008A9FD9 /* TSImageGridViewController.xib */; };
+		06EB5A7718D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB5A7618D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06EB5A3C18D548AE008A9FD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06EB5A1418D548AE008A9FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06EB5A1B18D548AE008A9FD9;
+			remoteInfo = TSContentCapsule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EB5A1C18D548AE008A9FD9 /* TSContentCapsule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSContentCapsule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EB5A1F18D548AE008A9FD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06EB5A2118D548AE008A9FD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06EB5A2318D548AE008A9FD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06EB5A2718D548AE008A9FD9 /* TSContentCapsule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TSContentCapsule-Info.plist"; path = "TSContentCapsule/TSContentCapsule-Info.plist"; sourceTree = "<group>"; };
+		06EB5A2918D548AE008A9FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EB5A2B18D548AE008A9FD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TSContentCapsule/main.m; sourceTree = "<group>"; };
+		06EB5A2D18D548AE008A9FD9 /* TSContentCapsule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TSContentCapsule-Prefix.pch"; path = "TSContentCapsule/TSContentCapsule-Prefix.pch"; sourceTree = "<group>"; };
+		06EB5A2E18D548AE008A9FD9 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		06EB5A2F18D548AE008A9FD9 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		06EB5A3118D548AE008A9FD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06EB5A3718D548AE008A9FD9 /* TSContentCapsuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSContentCapsuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EB5A3818D548AE008A9FD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06EB5A4018D548AE008A9FD9 /* TSContentCapsuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSContentCapsuleTests-Info.plist"; sourceTree = "<group>"; };
+		06EB5A4218D548AE008A9FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EB5A4418D548AE008A9FD9 /* TSContentCapsuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSContentCapsuleTests.m; sourceTree = "<group>"; };
+		06EB5A5218D54B98008A9FD9 /* TSContentCapsuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContentCapsuleManager.h; sourceTree = "<group>"; };
+		06EB5A5318D54B98008A9FD9 /* TSContentCapsuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContentCapsuleManager.m; sourceTree = "<group>"; };
+		06EB5A5618D54C43008A9FD9 /* TSContentCapsuleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContentCapsuleItem.h; sourceTree = "<group>"; };
+		06EB5A5718D54C43008A9FD9 /* TSContentCapsuleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContentCapsuleItem.m; sourceTree = "<group>"; };
+		06EB5A5A18D55B3D008A9FD9 /* TSContentCapsuleThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContentCapsuleThread.h; sourceTree = "<group>"; };
+		06EB5A5B18D55B3D008A9FD9 /* TSContentCapsuleThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContentCapsuleThread.m; sourceTree = "<group>"; };
+		06EB5A6918D56EC8008A9FD9 /* TSDownloadImageCapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDownloadImageCapsule.h; sourceTree = "<group>"; };
+		06EB5A6A18D56EC8008A9FD9 /* TSDownloadImageCapsule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDownloadImageCapsule.m; sourceTree = "<group>"; };
+		06EB5A7018D57191008A9FD9 /* TSImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSImageGridViewController.h; sourceTree = "<group>"; };
+		06EB5A7118D57191008A9FD9 /* TSImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSImageGridViewController.m; sourceTree = "<group>"; };
+		06EB5A7218D57191008A9FD9 /* TSImageGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSImageGridViewController.xib; sourceTree = "<group>"; };
+		06EB5A7518D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPublicPinterestFeedCapsule.h; sourceTree = "<group>"; };
+		06EB5A7618D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPublicPinterestFeedCapsule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06EB5A1918D548AE008A9FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A2218D548AE008A9FD9 /* CoreGraphics.framework in Frameworks */,
+				06EB5A2418D548AE008A9FD9 /* UIKit.framework in Frameworks */,
+				06EB5A2018D548AE008A9FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EB5A3418D548AE008A9FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A3918D548AE008A9FD9 /* XCTest.framework in Frameworks */,
+				06EB5A3B18D548AE008A9FD9 /* UIKit.framework in Frameworks */,
+				06EB5A3A18D548AE008A9FD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EB5A1318D548AE008A9FD9 = {
+			isa = PBXGroup;
+			children = (
+				06EB5A4E18D549E1008A9FD9 /* Supporting Files */,
+				06EB5A2518D548AE008A9FD9 /* TSContentCapsule */,
+			);
+			sourceTree = "<group>";
+		};
+		06EB5A1D18D548AE008A9FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A1C18D548AE008A9FD9 /* TSContentCapsule.app */,
+				06EB5A3718D548AE008A9FD9 /* TSContentCapsuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06EB5A1E18D548AE008A9FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A1F18D548AE008A9FD9 /* Foundation.framework */,
+				06EB5A2118D548AE008A9FD9 /* CoreGraphics.framework */,
+				06EB5A2318D548AE008A9FD9 /* UIKit.framework */,
+				06EB5A3818D548AE008A9FD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06EB5A2518D548AE008A9FD9 /* TSContentCapsule */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A6C18D5711A008A9FD9 /* ViewControllers */,
+				06EB5A6818D56E4F008A9FD9 /* Capsules */,
+				06EB5A4F18D54AE6008A9FD9 /* Tools */,
+				06EB5A2E18D548AE008A9FD9 /* TSAppDelegate.h */,
+				06EB5A2F18D548AE008A9FD9 /* TSAppDelegate.m */,
+				06EB5A3118D548AE008A9FD9 /* Images.xcassets */,
+			);
+			path = TSContentCapsule;
+			sourceTree = "<group>";
+		};
+		06EB5A3E18D548AE008A9FD9 /* TSContentCapsuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A4418D548AE008A9FD9 /* TSContentCapsuleTests.m */,
+				06EB5A3F18D548AE008A9FD9 /* Supporting Files */,
+			);
+			path = TSContentCapsuleTests;
+			sourceTree = "<group>";
+		};
+		06EB5A3F18D548AE008A9FD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A4018D548AE008A9FD9 /* TSContentCapsuleTests-Info.plist */,
+				06EB5A4118D548AE008A9FD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EB5A4E18D549E1008A9FD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A3E18D548AE008A9FD9 /* TSContentCapsuleTests */,
+				06EB5A1E18D548AE008A9FD9 /* Frameworks */,
+				06EB5A1D18D548AE008A9FD9 /* Products */,
+				06EB5A2718D548AE008A9FD9 /* TSContentCapsule-Info.plist */,
+				06EB5A2818D548AE008A9FD9 /* InfoPlist.strings */,
+				06EB5A2B18D548AE008A9FD9 /* main.m */,
+				06EB5A2D18D548AE008A9FD9 /* TSContentCapsule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EB5A4F18D54AE6008A9FD9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A5118D54B06008A9FD9 /* TSContentCapsule */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		06EB5A5118D54B06008A9FD9 /* TSContentCapsule */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A5A18D55B3D008A9FD9 /* TSContentCapsuleThread.h */,
+				06EB5A5B18D55B3D008A9FD9 /* TSContentCapsuleThread.m */,
+				06EB5A5618D54C43008A9FD9 /* TSContentCapsuleItem.h */,
+				06EB5A5718D54C43008A9FD9 /* TSContentCapsuleItem.m */,
+				06EB5A5218D54B98008A9FD9 /* TSContentCapsuleManager.h */,
+				06EB5A5318D54B98008A9FD9 /* TSContentCapsuleManager.m */,
+			);
+			path = TSContentCapsule;
+			sourceTree = "<group>";
+		};
+		06EB5A6818D56E4F008A9FD9 /* Capsules */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A6918D56EC8008A9FD9 /* TSDownloadImageCapsule.h */,
+				06EB5A6A18D56EC8008A9FD9 /* TSDownloadImageCapsule.m */,
+				06EB5A7518D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.h */,
+				06EB5A7618D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m */,
+			);
+			path = Capsules;
+			sourceTree = "<group>";
+		};
+		06EB5A6C18D5711A008A9FD9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				06EB5A7018D57191008A9FD9 /* TSImageGridViewController.h */,
+				06EB5A7118D57191008A9FD9 /* TSImageGridViewController.m */,
+				06EB5A7218D57191008A9FD9 /* TSImageGridViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06EB5A1B18D548AE008A9FD9 /* TSContentCapsule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EB5A4818D548AE008A9FD9 /* Build configuration list for PBXNativeTarget "TSContentCapsule" */;
+			buildPhases = (
+				06EB5A1818D548AE008A9FD9 /* Sources */,
+				06EB5A1918D548AE008A9FD9 /* Frameworks */,
+				06EB5A1A18D548AE008A9FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSContentCapsule;
+			productName = TSContentCapsule;
+			productReference = 06EB5A1C18D548AE008A9FD9 /* TSContentCapsule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06EB5A3618D548AE008A9FD9 /* TSContentCapsuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EB5A4B18D548AE008A9FD9 /* Build configuration list for PBXNativeTarget "TSContentCapsuleTests" */;
+			buildPhases = (
+				06EB5A3318D548AE008A9FD9 /* Sources */,
+				06EB5A3418D548AE008A9FD9 /* Frameworks */,
+				06EB5A3518D548AE008A9FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06EB5A3D18D548AE008A9FD9 /* PBXTargetDependency */,
+			);
+			name = TSContentCapsuleTests;
+			productName = TSContentCapsuleTests;
+			productReference = 06EB5A3718D548AE008A9FD9 /* TSContentCapsuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EB5A1418D548AE008A9FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Tsubasa;
+				TargetAttributes = {
+					06EB5A3618D548AE008A9FD9 = {
+						TestTargetID = 06EB5A1B18D548AE008A9FD9;
+					};
+				};
+			};
+			buildConfigurationList = 06EB5A1718D548AE008A9FD9 /* Build configuration list for PBXProject "TSContentCapsule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06EB5A1318D548AE008A9FD9;
+			productRefGroup = 06EB5A1D18D548AE008A9FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06EB5A1B18D548AE008A9FD9 /* TSContentCapsule */,
+				06EB5A3618D548AE008A9FD9 /* TSContentCapsuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EB5A1A18D548AE008A9FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A2A18D548AE008A9FD9 /* InfoPlist.strings in Resources */,
+				06EB5A7418D57191008A9FD9 /* TSImageGridViewController.xib in Resources */,
+				06EB5A3218D548AE008A9FD9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EB5A3518D548AE008A9FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A4318D548AE008A9FD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EB5A1818D548AE008A9FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A7718D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m in Sources */,
+				06EB5A5418D54B98008A9FD9 /* TSContentCapsuleManager.m in Sources */,
+				06EB5A2C18D548AE008A9FD9 /* main.m in Sources */,
+				06EB5A6B18D56EC8008A9FD9 /* TSDownloadImageCapsule.m in Sources */,
+				06EB5A5C18D55B3D008A9FD9 /* TSContentCapsuleThread.m in Sources */,
+				06EB5A3018D548AE008A9FD9 /* TSAppDelegate.m in Sources */,
+				06EB5A7318D57191008A9FD9 /* TSImageGridViewController.m in Sources */,
+				06EB5A5818D54C43008A9FD9 /* TSContentCapsuleItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EB5A3318D548AE008A9FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EB5A5518D54B98008A9FD9 /* TSContentCapsuleManager.m in Sources */,
+				06EB5A5918D54C43008A9FD9 /* TSContentCapsuleItem.m in Sources */,
+				06EB5A5D18D55B3D008A9FD9 /* TSContentCapsuleThread.m in Sources */,
+				06EB5A4518D548AE008A9FD9 /* TSContentCapsuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06EB5A3D18D548AE008A9FD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06EB5A1B18D548AE008A9FD9 /* TSContentCapsule */;
+			targetProxy = 06EB5A3C18D548AE008A9FD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06EB5A2818D548AE008A9FD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EB5A2918D548AE008A9FD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = TSContentCapsule;
+			sourceTree = "<group>";
+		};
+		06EB5A4118D548AE008A9FD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EB5A4218D548AE008A9FD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06EB5A4618D548AE008A9FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06EB5A4718D548AE008A9FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06EB5A4918D548AE008A9FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSContentCapsule/TSContentCapsule-Prefix.pch";
+				INFOPLIST_FILE = "TSContentCapsule/TSContentCapsule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06EB5A4A18D548AE008A9FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSContentCapsule/TSContentCapsule-Prefix.pch";
+				INFOPLIST_FILE = "TSContentCapsule/TSContentCapsule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06EB5A4C18D548AE008A9FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSContentCapsule.app/TSContentCapsule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSContentCapsule/TSContentCapsule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TSContentCapsuleTests/TSContentCapsuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06EB5A4D18D548AE008A9FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSContentCapsule.app/TSContentCapsule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSContentCapsule/TSContentCapsule-Prefix.pch";
+				INFOPLIST_FILE = "TSContentCapsuleTests/TSContentCapsuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EB5A1718D548AE008A9FD9 /* Build configuration list for PBXProject "TSContentCapsule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EB5A4618D548AE008A9FD9 /* Debug */,
+				06EB5A4718D548AE008A9FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EB5A4818D548AE008A9FD9 /* Build configuration list for PBXNativeTarget "TSContentCapsule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EB5A4918D548AE008A9FD9 /* Debug */,
+				06EB5A4A18D548AE008A9FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EB5A4B18D548AE008A9FD9 /* Build configuration list for PBXNativeTarget "TSContentCapsuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EB5A4C18D548AE008A9FD9 /* Debug */,
+				06EB5A4D18D548AE008A9FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EB5A1418D548AE008A9FD9 /* Project object */;
+}

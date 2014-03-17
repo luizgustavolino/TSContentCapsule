@@ -40,7 +40,7 @@
     [tiles removeAllObjects];
     
     // loop getting each tile url
-    for (int i = 0, max = items.count; i < max; i++) {
+    for (NSUInteger i = 0, max = items.count; i < max; i++) {
         
         // build a tile and add as a scrolview subview
         CGRect tileFrame        = CGRectMake(thumbSize.width*(i%thumbsPerLine),

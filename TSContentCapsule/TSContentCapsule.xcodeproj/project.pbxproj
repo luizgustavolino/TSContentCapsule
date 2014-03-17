@@ -129,8 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				06EB5A6C18D5711A008A9FD9 /* ViewControllers */,
-				06EB5A6818D56E4F008A9FD9 /* Capsules */,
-				06EB5A4F18D54AE6008A9FD9 /* Tools */,
 				06EB5A2E18D548AE008A9FD9 /* TSAppDelegate.h */,
 				06EB5A2F18D548AE008A9FD9 /* TSAppDelegate.m */,
 				06EB5A3118D548AE008A9FD9 /* Images.xcassets */,
@@ -159,6 +157,8 @@
 		06EB5A4E18D549E1008A9FD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06EB5A6818D56E4F008A9FD9 /* Capsules */,
+				06EB5A4F18D54AE6008A9FD9 /* Tools */,
 				06EB5A3E18D548AE008A9FD9 /* TSContentCapsuleTests */,
 				06EB5A1E18D548AE008A9FD9 /* Frameworks */,
 				06EB5A1D18D548AE008A9FD9 /* Products */,
@@ -175,7 +175,8 @@
 			children = (
 				06EB5A5118D54B06008A9FD9 /* TSContentCapsule */,
 			);
-			path = Tools;
+			name = Tools;
+			path = TSContentCapsule/Tools;
 			sourceTree = "<group>";
 		};
 		06EB5A5118D54B06008A9FD9 /* TSContentCapsule */ = {
@@ -199,7 +200,8 @@
 				06EB5A7518D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.h */,
 				06EB5A7618D577D1008A9FD9 /* TSPublicPinterestFeedCapsule.m */,
 			);
-			path = Capsules;
+			name = Capsules;
+			path = TSContentCapsule/Capsules;
 			sourceTree = "<group>";
 		};
 		06EB5A6C18D5711A008A9FD9 /* ViewControllers */ = {

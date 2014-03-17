@@ -11,7 +11,7 @@
 #import "TSContentCapsuleManager.h"
 #import "TSDownloadImageCapsule.h"
 
-@interface TSImageGridViewController : UIViewController<TSPublicPinterestFeedCapsuleDelegate>{
+@interface TSImageGridViewController : UIViewController<TSPublicPinterestFeedCapsuleDelegate, UITextFieldDelegate>{
     NSMutableArray *tiles;
 }
 

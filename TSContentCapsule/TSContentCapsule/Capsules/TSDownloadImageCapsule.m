@@ -50,6 +50,7 @@
 }
 
 - (void)dealloc{
+    [_image release], _image = nil;
     [_imageView release], _imageView = nil;
     [_imageURL release], _imageURL = nil;
     [super dealloc];

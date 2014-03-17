@@ -10,6 +10,11 @@
 #import "TSContentCapsuleThread.h"
 #import "TSContentCapsuleItem.h"
 
+// discardQueuedCapsules keys:
+#define kCCCapsuleClass @"kCCCapsuleClass"
+
+
+
 @interface TSContentCapsuleManager : NSObject
 
 +(id) bootstrapWithThreadCount:(int) howManyThreads;
@@ -17,5 +22,6 @@
 +(void) destroy;
 
 -(void) addCapsuleInQueue:(TSContentCapsuleItem*) item;
+-(void) discardQueuedCapsules:(NSDictionary*) filter;
 
 @end

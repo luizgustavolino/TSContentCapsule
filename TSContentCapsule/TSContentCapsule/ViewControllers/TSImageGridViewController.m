@@ -15,6 +15,11 @@
     [self loadPins];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self loadPins];
+    return YES;
+}
+
 -(IBAction) loadPins{
     [TSPublicPinterestFeedCapsule queueFeedWithDelegate:self user:self.uiPinUsername.text];
     [self.uiPinUsername resignFirstResponder];
@@ -28,7 +33,8 @@
     CGSize containerSize    = self.uiScrollview.frame.size;
     CGSize thumbSize        = CGSizeMake(containerSize.width/thumbsPerLine, containerSize.width/thumbsPerLine);
     
-    // remove old tiles
+    // discard previous queued dowloads and remove old tiles
+    [[TSContentCapsuleManager sharedManager] discardQueuedCapsules:@{kCCCapsuleClass: [TSDownloadImageCapsule class]}];
     if(!tiles) tiles = [[NSMutableArray alloc] init];
     [tiles makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [tiles removeAllObjects];

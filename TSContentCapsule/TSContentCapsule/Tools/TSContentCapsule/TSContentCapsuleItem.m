@@ -10,21 +10,27 @@
 
 @implementation TSContentCapsuleItem
 
-+(id) capsule{
-    return [[[TSContentCapsuleItem alloc] init] autorelease];
-}
-
 - (id)init{
     self = [super init];
     if (self) {
-        _contextThread = [[NSThread currentThread] retain];
+        _contextThread  = [[NSThread currentThread] retain];
+        _discarded      = NO;
     }
     return self;
 }
 
 -(void) fire{ /* STUB */ }
 -(void) conclude{ /* STUB */ }
--(void) discard{ /* STUB */ }
+
+
+-(void) performContextualConclude{
+    [self performSelector:@selector(conclude) onThread:self.contextThread
+               withObject:nil waitUntilDone:NO modes:@[NSDefaultRunLoopMode]];
+}
+
+-(void) discard{
+    _discarded = YES;
+}
 
 - (void)dealloc{
     

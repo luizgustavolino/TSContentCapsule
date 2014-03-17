@@ -71,6 +71,8 @@
 
 - (void)dealloc{
     [_delegate release], _delegate = nil;
+    [_username release], _username = nil;
+    [_photos release], _photos = nil;
     [super dealloc];
 }
 

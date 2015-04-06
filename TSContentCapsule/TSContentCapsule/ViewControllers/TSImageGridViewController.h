@@ -12,7 +12,7 @@
 #import "TSDownloadImageCapsule.h"
 
 @interface TSImageGridViewController : UIViewController<TSPublicPinterestFeedCapsuleDelegate, UITextFieldDelegate>{
-    NSMutableArray *tiles;
+    
 }
 
 @property (nonatomic, assign) IBOutlet UIScrollView *uiScrollview;

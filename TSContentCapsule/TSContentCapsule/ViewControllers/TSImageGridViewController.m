@@ -8,7 +8,9 @@
 
 #import "TSImageGridViewController.h"
 
-@implementation TSImageGridViewController
+@implementation TSImageGridViewController {
+    NSMutableArray *tiles;
+}
 
 - (void)viewDidLoad{
     [super viewDidLoad];
